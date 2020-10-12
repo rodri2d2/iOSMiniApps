@@ -20,6 +20,8 @@ Until the last commit, the app does not detect the third touch correctly
 
 
 # Sample
-<p style="text-align: center;">  ![](https://github.com/rodri2d2/rodri2d2/blob/master/color_touches_12_10_20.gif) </p>
+<p align="center">
+  <img width="460" height="300" src="https://github.com/rodri2d2/rodri2d2/blob/master/color_touches_12_10_20.gif">
+</p>
 
 
