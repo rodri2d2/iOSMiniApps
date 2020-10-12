@@ -19,5 +19,5 @@ Until the last commit, the app does not detect the third touch correctly
 
 
 
-[12/10/2020](https://gfycat.com/badultimatedromaeosaur)
+![](https://gfycat.com/badultimatedromaeosaur)
 
