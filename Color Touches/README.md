@@ -12,7 +12,7 @@ This app changes the color of the main view base on how the screen is touched
 
 
 ## Big Trick
-Following Apple documentation, theres an article on how to implement Multi-touch functionality
+Following [Apple documentation](https://developer.apple.com/documentation/uikit/touches_presses_and_gestures/handling_touches_in_your_view/implementing_a_multi-touch_app), theres an article on how to implement Multi-touch functionality
 
 ## Little problems
 Until the last commit, the app does not detect the third touch correctly
