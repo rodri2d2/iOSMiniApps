@@ -16,3 +16,8 @@ Following [Apple documentation](https://developer.apple.com/documentation/uikit/
 
 ## Little problems
 Until the last commit, the app does not detect the third touch correctly
+
+
+
+[12/10/2020](https://gfycat.com/badultimatedromaeosaur)
+
