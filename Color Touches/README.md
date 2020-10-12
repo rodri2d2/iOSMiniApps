@@ -19,5 +19,9 @@ Until the last commit, the app does not detect the third touch correctly
 
 
 
-![](https://github.com/rodri2d2/rodri2d2/blob/master/color_touches_12_10_20.gif)
+# Sample
+<p align="center">
+  ![](https://github.com/rodri2d2/rodri2d2/blob/master/color_touches_12_10_20.gif)
+</p>
+
 
