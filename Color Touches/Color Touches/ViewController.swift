@@ -21,16 +21,16 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = .white
         self.view.isMultipleTouchEnabled = true
     }
     
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-       
+    
         for touch in touches {
             createViewForTouch(touch: touch)
             touchPositions[touch] = touch.location(in: self.view).y
-       
         }
     }
     
@@ -39,14 +39,12 @@ class ViewController: UIViewController {
         
         for touch in touches {
             let touchedView = viewForTouch(touch: touch)
-            
             // Move the view to the new location.
             let newLocation = touch.location(in: self.view)
-                touchedView?.center = newLocation
-            
+            touchedView?.center = newLocation
             
             if let index = getTouchDictionaryPosition(touch: touch){
-            
+                
                 switch index {
                 case 0:
                     redIntensity(for: touch)
@@ -57,9 +55,7 @@ class ViewController: UIViewController {
                 default:
                     return
                 }
-                
             }
-
         }
         
     }
@@ -87,8 +83,8 @@ class ViewController: UIViewController {
         
         //Add the view to the dictionary
         touchViews[touch] = newView
-       
-
+        
+        
     }
     
     func viewForTouch (touch : UITouch) -> TouchSpotView? {
@@ -109,7 +105,7 @@ class ViewController: UIViewController {
     
     
     func redIntensity(for touch: UITouch){
-            
+        
         let actualPosition = touch.location(in: self.view).y
         if(actualPosition > touchPositions[touch]!){
             redColoIntensity +=  0.05
@@ -122,7 +118,7 @@ class ViewController: UIViewController {
     }
     
     func greenIntensity(for touch: UITouch){
-            
+        
         let actualPosition = touch.location(in: self.view).y
         if(actualPosition > touchPositions[touch]!){
             greenColoIntensity +=  0.05
@@ -135,7 +131,7 @@ class ViewController: UIViewController {
     }
     
     func blueIntensity(for touch: UITouch){
-            
+        
         let actualPosition = touch.location(in: self.view).y
         if(actualPosition > touchPositions[touch]!){
             blueColoIntensity +=  0.05
