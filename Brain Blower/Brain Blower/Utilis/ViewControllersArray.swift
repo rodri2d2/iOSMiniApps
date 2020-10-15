@@ -6,6 +6,9 @@
 //
 
 import UIKit
+
+
+/// This class set up and return a array of UIViewControllers to be included on the UITabBarController.setViewControllers
 struct ViewControllersArray {
    
     private var cubeVC: CubeViewController {
@@ -49,6 +52,11 @@ struct ViewControllersArray {
         
     }
     
+    
+    /// Array of UIViewControllers
+    /// Each ViewController that will be included in the main TabBar must be instantiated
+    /// and than passed through this method
+    /// - Returns: [UIViewController]
     func array() -> [UIViewController] {
         return [cubeVC, memoryVC, simonVC, wordsVC, songVc]
     }

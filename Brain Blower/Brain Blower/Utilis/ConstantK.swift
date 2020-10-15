@@ -7,6 +7,9 @@
 
 import Foundation
 
+
+
+/// Constant K that keeps strings to avoid typing errors
 struct K {
 
     struct ItemImages {
