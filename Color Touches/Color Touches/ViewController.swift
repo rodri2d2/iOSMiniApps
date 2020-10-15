@@ -109,11 +109,11 @@ class ViewController: UIViewController {
         let actualPosition = touch.location(in: self.view).y
         if(actualPosition > touchPositions[touch]!){
             redColoIntensity +=  0.05
-            view.backgroundColor = UIColor(displayP3Red: redColoIntensity, green: greenColoIntensity, blue: blueColoIntensity, alpha: 1)
+            view.backgroundColor = UIColor(red: redColoIntensity, green: greenColoIntensity, blue: blueColoIntensity, alpha: 1)
         } else if (actualPosition < touchPositions[touch]!){
             touchPositions[touch] = actualPosition
             redColoIntensity -= 0.05
-            view.backgroundColor = UIColor(displayP3Red: redColoIntensity, green: greenColoIntensity, blue: blueColoIntensity, alpha: 1)
+            view.backgroundColor = UIColor(red: redColoIntensity, green: greenColoIntensity, blue: blueColoIntensity, alpha: 1)
         }
     }
     
@@ -122,11 +122,11 @@ class ViewController: UIViewController {
         let actualPosition = touch.location(in: self.view).y
         if(actualPosition > touchPositions[touch]!){
             greenColoIntensity +=  0.05
-            view.backgroundColor = UIColor(displayP3Red: redColoIntensity, green: greenColoIntensity, blue: blueColoIntensity, alpha: 1)
+            view.backgroundColor = UIColor(red: redColoIntensity, green: greenColoIntensity, blue: blueColoIntensity, alpha: 1)
         } else if (actualPosition < touchPositions[touch]!){
             touchPositions[touch] = actualPosition
             greenColoIntensity -= 0.05
-            view.backgroundColor = UIColor(displayP3Red: redColoIntensity, green: greenColoIntensity, blue: blueColoIntensity, alpha: 1)
+            view.backgroundColor = UIColor(red: redColoIntensity, green: greenColoIntensity, blue: blueColoIntensity, alpha: 1)
         }
     }
     
@@ -135,11 +135,11 @@ class ViewController: UIViewController {
         let actualPosition = touch.location(in: self.view).y
         if(actualPosition > touchPositions[touch]!){
             blueColoIntensity +=  0.05
-            view.backgroundColor = UIColor(displayP3Red: redColoIntensity, green: greenColoIntensity, blue: blueColoIntensity, alpha: 1)
+            view.backgroundColor = UIColor(red: redColoIntensity, green: greenColoIntensity, blue: blueColoIntensity, alpha: 1)
         } else if (actualPosition < touchPositions[touch]!){
             touchPositions[touch] = actualPosition
             blueColoIntensity -= 0.05
-            view.backgroundColor = UIColor(displayP3Red: redColoIntensity, green: greenColoIntensity, blue: blueColoIntensity, alpha: 1)
+            view.backgroundColor = UIColor(red: redColoIntensity, green: greenColoIntensity, blue: blueColoIntensity, alpha: 1)
         }
     }
 }
