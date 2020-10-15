@@ -1,27 +1,26 @@
-# Color Touches
+# Brain Blower
 
-This app changes the color of the main view base on how the screen is touched
-1. Touch with one finger and move Y axis (top to bottom and vice versa) to change Red Color
-2. Touch with two fingers and move Y axis (top to bottom and vice versa) to change Green Color
-2. Touch with Three fingers and move Y axis (top to bottom and vice versa) to change Blue Color
+This is a 5 Brain Trainner mini games
+1. The Cube, based on Game of Life algorithm, the user have to match al colors by click on them
+2. Memorise, the user have to match couple of card placed randomly
+3. It a SIMON game clone
+4. Word search, the user have to find on the letters pool the proposed words (First cersion SPANISH ONLY)
+5. Play a song, the user have to tap the correct symbol to play a song
 
 ## Goals
 
 1. Improve UIView skills
-2. Training how to read and understand the Apple's official documentation
-
+2. Understand UIKit and how to customize views
+3. Understand TabBar
+4. Undestand UIViewAnimations
+5. Create custom PopUp Views
 
 ## Big Trick
-Following [Apple documentation](https://developer.apple.com/documentation/uikit/touches_presses_and_gestures/handling_touches_in_your_view/implementing_a_multi-touch_app), theres an article on how to implement Multi-touch functionality
+
 
 ## Little problems
-Until the last commit, the app does not detect the third touch correctly
-
 
 
 # Sample
-<p align="center">
-  <img src="https://github.com/rodri2d2/rodri2d2/blob/master/color_touches_12_10_20.gif">
-</p>
-
+Not yet available
 
