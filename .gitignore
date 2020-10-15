@@ -2,7 +2,6 @@
 .DS_Store
 
 #Readme file will be updated directly on GitHub
-README.md
 
 
 
@@ -12,6 +11,8 @@ README.md
 
 ## User settings
 xcuserdata/
+Color Touches/Color Touches.xcodeproj/project.pbxproj
+Color Touches/Color Touches.xcodeproj/xcshareddata/
 
 
 
